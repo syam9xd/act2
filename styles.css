@@ -3,15 +3,16 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: #000000;
   text-align: center;
 }
 
 header {
+  background-color: #008000;
+  color: white;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -24,24 +25,25 @@ nav {
 }
 
 nav a {
+  color: white;
   text-decoration: none;
   margin: 0 10px;
   padding: 5px 10px;
-  border: 1px solid black;
+  background-color: #000000;
+  border: 2px solid #ff0000;
   border-radius: 5px;
-  display: inline-block;
 }
 
 nav a:hover {
-  background-color: lightgray;
+  background-color: #ff0000;
 }
 
 main, h1, h2, p, li {
   margin: 20px auto;
   max-width: 800px;
   padding: 10px;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid #ffffff;
+  background-color: #000000;
   border-radius: 5px;
   text-align: center;
   word-wrap: break-word;
@@ -52,8 +54,9 @@ main, h1, h2, p, li {
   height: auto;
   display: block;
   margin: 20px auto;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 5px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 ul {
@@ -64,8 +67,8 @@ ul {
 ul li {
   margin: 10px auto;
   padding: 10px;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid #008000;
+  background-color: #000000;
   text-align: center;
   max-width: 600px;
   word-wrap: break-word;
@@ -76,31 +79,36 @@ img {
   height: auto;
   display: block;
   margin: 20px auto;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 5px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 a {
   display: inline-block;
+  color: #008000;
   text-decoration: none;
   margin-top: 10px;
   padding: 5px 10px;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid #ff0000;
+  background-color: #000000;
   border-radius: 5px;
 }
 
 a:hover {
-  background-color: lightgray;
+  background-color: #008000;
+  color: white;
 }
 
 h1 {
+  color: #ff0000;
   font-size: 2.5em;
   text-align: center;
   margin: 20px auto;
 }
 
 h2 {
+  color: #008000;
   font-size: 1.8em;
   margin: 10px auto;
 }
@@ -108,15 +116,16 @@ h2 {
 footer {
   margin-top: 20px;
   padding: 10px;
-  border-top: 1px solid black;
+  background-color: #008000;
+  color: white;
   text-align: center;
 }
 
 .event-item, .culture-item {
   margin: 20px auto;
   padding: 10px;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid #008000;
+  background-color: #000000;
   border-radius: 5px;
   max-width: 800px;
   text-align: center;
@@ -127,6 +136,7 @@ footer {
   max-width: 80%;
   height: auto;
   margin: 10px auto;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 5px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
